@@ -21,7 +21,7 @@ scoreboard = Scoreboard()
 
 #Movement commands:
 #Se dan las instrucciones de movimiento del cuerpo de la serpiente con las teclas del teclado
-screen.listen
+screen.listen()
 screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")

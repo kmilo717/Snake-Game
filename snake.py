@@ -34,7 +34,7 @@ class Snake:
             newX = self.segments[segNum -1].xcor()
             newY = self.segments[segNum -1].ycor()
             self.segments[segNum].goto(newX, newY)
-            self.head.forward(MOVE_DISTANCE)
+        self.head.forward(MOVE_DISTANCE)
     #La función up determina que en caso de que se accione la tecla de la flecha hacia abajo con la culebra dirigiéndose hacia arriba, esta siga el trayecto que lleva para no colisionar con su propio cuerpo
     def up(self):
         if self.head.heading() != DOWN:

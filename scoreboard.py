@@ -20,7 +20,7 @@ class Scoreboard(Turtle):
     #la función gameOver muestra el mensaje "GAME OVER >:D" cuando la culabra colisione contra el límite del juego (pared) o contra su propio cuerpo.
     def gameOver(self):
         self.goto(0, 0)
-        self.write("GAME OVER >:D", align = ALIGNMENT, font = FONT)
+        self.write("GAME OVER, DUDE >:D", align = ALIGNMENT, font = FONT)
     #La función increaseScore incrementa el puntaje cada vez que la culebra coma y lo actualiza en la barra de puntaje.
     def increaseScore(self):
         self.score += 1
